@@ -1,0 +1,126 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: 0;
+}
+.firstsection {
+  background-image: url(groupproject/heading-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 60vh;
+}
+.secondsection{
+    margin: 0px 70px;
+    padding: 90px 0;
+}
+.simpletabs {
+  color: white;
+   font-weight: 20px;
+  font-size: medium;
+}
+div h3 {
+  color: white;
+  font-weight: 900;
+  font-size: 50px;
+}
+.house img {
+  height: 50px;
+  width: 50px;
+}
+.purple div img {
+  height: 20px;
+  width: 20px;
+}
+.purple{
+    background-color: rgb(27, 24, 24);
+    width: 17vw;
+    height: 17vh;
+     border-bottom-left-radius: 10px;
+     /* margin: 7px 0; */
+}
+.purple div {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  margin-top: 16px;
+  margin-left: 16px;
+  
+}
+footer{
+    background-color: rgb(130, 130, 149);
+    width: 80vw;
+    height: 17vh;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    left: 117px;
+}
+.bi-house{
+    color:gray;
+    font-size: xx-large;
+    padding: 7px 0;
+}
+p{
+    color: white;
+    text-align: center;
+    padding: 35px 0;
+}
+.iconfirst{
+    height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 25vw;
+    color: white;
+    justify-content: space-between;
+    padding-right:40px;
+    width: 70vw;
+}
+.icons{
+     display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25vw;
+  position: relative;
+  top: 50px;
+  color: white;
+}
+.icons div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+
+}
+section p{
+position: relative;
+left: 80px;
+bottom: 70px;
+}
+.icon{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35vw;
+  position: relative;
+  top: 5px;
+  right: 47px;
+  height: 17vh;
+  color: white;
+  background-color: black;
+  border-bottom-left-radius: 10px;
+}
+
