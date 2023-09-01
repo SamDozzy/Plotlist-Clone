@@ -1,0 +1,27 @@
+.col {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(/Plotlist-Clone/ASSETS/heading-bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 95vh;
+}
+
+.contant-section{
+    color: white;
+    margin: 150px auto;
+}
+
+.contact_text p{
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+.contact_text h1{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 900;
+    width: 700px;
+    text-transform: capitalize;
+}
