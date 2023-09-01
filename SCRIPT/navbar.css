@@ -1,40 +1,31 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.section_p{
+.section_p {
   padding: 20px 100px;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
   font-family: Poppins;
   text-transform: uppercase;
 }
 
-.col{
-  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(/ASSETS/banner.jpg) no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: 95vh;
+nav {
+  border-bottom: 1px solid white;
 }
 
-nav{
-  border-bottom: 1px solid white; 
-}
-
-.nav_container{
+.nav_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
-.links{
+.links {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -42,31 +33,30 @@ nav{
   list-style: none;
 }
 
-.links li a{
+.links li a {
   letter-spacing: 0.2em;
   transition: 0.3s ease-in-out;
   font-size: 14px;
 }
 
-.links a:hover{
+.links a:hover {
   color: rgb(207, 207, 207);
 }
 
-.add_listing li{
+.add_listing li {
   background-color: white;
   padding: 10px 30px;
   border-radius: 6px;
 }
 
-.add_listing a{
+.add_listing a {
   color: black;
   text-transform: capitalize;
   letter-spacing: 0.3rem;
 }
 
-.add_listing i{
+.add_listing i {
   color: black;
   font-size: 18px;
   margin-right: 25px;
-  
 }
